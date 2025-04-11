@@ -1,0 +1,221 @@
+.bg-img {
+  background-image: url("images/background-img.jpg");
+  color: white;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: 150px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 20px;
+  margin-top: 0px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+
+nav ul li a:hover {
+  background-color: #eee;
+}
+/*-----------------*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+.form {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  color: white;
+}
+
+.content h1 {
+  color: white;
+}
+.form h2 {
+  color: black;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.form button {
+  background-color: Red;
+  color: #fff;
+  padding: 10px 120px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.form button:hover {
+  background-color: pink;
+  color: black;
+}
+.center-heading {
+  text-align: center;
+  margin-top: 50px;
+}
+.vertical-line {
+  border-left: 3px solid red;
+  height: 65px; /* Adjust the height of the line as needed */
+  margin-right: 10px; /* Adjust the margin as needed */
+  padding-left: 10px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.tour {
+  background-color: Red;
+  color: #fff;
+  padding: 8px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.amenities {
+  background-color: white;
+  color: black;
+  padding: 8px 30px;
+  border: 1px solid gray;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  height: 50px;
+  /* width: 150px; */
+
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  text-align: left;
+}
+.amenities:hover {
+  background-color: red;
+  color: white;
+}
+.client-logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.client-logos img {
+  width: 200px;
+  height: auto;
+}
+/***********************************************************************/
+.contact-us {
+  background-color: rgb(225, 219, 219);
+  justify-content: center;
+  text-align: center;
+}
+.infor {
+  padding: 40px;
+}
+
+/***********************************************************************/
+.footer {
+  background-color: #333; /* Choose your desired background color */
+  color: white;
+  padding: 20px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo i {
+  color: white;
+  margin-right: 5px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+/*************************************************************************************/
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+/* Style for gallery items (images) */
+.gallery-item {
+  flex: 0 0 calc(33.33% - 10px); /* Three items in the first row */
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+/* Responsive design - Two items in the second row for smaller screens */
+@media (max-width: 600px) {
+  .gallery-item {
+    flex: 0 0 calc(50% - 10px); /* Two items in the second row */
+  }
+}
+
+/* Style for images */
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
